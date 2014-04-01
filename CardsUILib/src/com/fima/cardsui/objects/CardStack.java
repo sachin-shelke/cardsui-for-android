@@ -275,7 +275,7 @@ public class CardStack extends AbstractCard {
                     } else if (i == 1) {
                         // the second goes up just a bit
 
-                        float upFactor = convertDpToPixel(-17f);
+                        float upFactor = convertDpToPixel(-25f);
                         anim = ObjectAnimator.ofFloat(views[i],
                                 NINE_OLD_TRANSLATION_Y, 0, upFactor);
 
